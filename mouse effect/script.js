@@ -34,7 +34,7 @@ function drawShape(x, y, radius, inset, n) {
 }
 const radius = 70;
 const inset = 0.5;
-const n = 7;
+const n = 6;
 drawShape( radius, inset, n);
 
 let angle = 0;
