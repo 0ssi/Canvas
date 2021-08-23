@@ -32,9 +32,9 @@ function drawShape(x, y, radius, inset, n) {
     ctx.stroke();
     ctx.fill();
 }
-const radius = 70;
-const inset = 0.5;
-const n = 6;
+const radius = 100;
+const inset = 0.1;
+const n = 3;
 drawShape( radius, inset, n);
 
 let angle = 0;
@@ -57,4 +57,8 @@ window.addEventListener("mousedown", function(){
 window.addEventListener("mouseup", function(){
     drawing = false
 });
+
+
+
+
 
